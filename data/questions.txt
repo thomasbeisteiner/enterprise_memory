@@ -1,0 +1,313 @@
+Projekt: Atlas
+
+Deutsch:
+
+Wie ist der aktuelle Stand der OAuth2-Migration?
+
+Welche Änderungen gab es bei den API-Keys?
+
+Welche Probleme traten bei der Token-Erneuerung im Frontend auf?
+
+Welche Rolle spielt der Support bei der Umstellung auf OAuth2?
+
+Welche Sicherheitsvorteile bringt die Umstellung auf OAuth2?
+
+Englisch:
+
+What is the current status of the OAuth2 migration?
+
+What changes were made to the API keys?
+
+What issues occurred during token renewal in the frontend?
+
+How is support involved in the OAuth2 transition?
+
+What security benefits does the OAuth2 migration provide?
+
+
+Projekt: Neptune
+
+Deutsch:
+
+Warum schlug die CI-Pipeline bei Integrationstests fehl?
+
+Welche Node-Versionen wurden in Docker-Images verwendet?
+
+Welche Monitoring-Erweiterungen wurden mit Prometheus umgesetzt?
+
+Welche Auswirkungen hatten die Änderungen auf DevOps?
+
+Welche Maßnahmen wurden getroffen, um die Pipeline zu stabilisieren?
+
+Englisch:
+
+Why did the CI pipeline fail during integration tests?
+
+Which Node versions were used in the Docker images?
+
+What monitoring extensions were implemented with Prometheus?
+
+How did the changes impact DevOps operations?
+
+What actions were taken to stabilize the CI pipeline?
+
+
+Projekt: Helios
+
+Deutsch:
+
+Welche TLS-Konfigurationen wurden als veraltet identifiziert?
+
+Wie wurden Zugriffsrechte für Admin-Rollen angepasst?
+
+Welche Sicherheitsrichtlinien wurden umgesetzt?
+
+Welche Rolle hatte das Security-Team bei den Updates?
+
+Welche Maßnahmen sind geplant, um Risiken zu reduzieren?
+
+Englisch:
+
+Which TLS configurations were identified as outdated?
+
+How were admin role permissions adjusted?
+
+What security policies were implemented?
+
+What role did the security team play in the updates?
+
+What measures are planned to reduce risks?
+
+Projekt: Mercury
+
+Deutsch:
+
+Wie wurden die API-Endpunkte für Reporting optimiert?
+
+Welche Performance-Verbesserungen konnten erzielt werden?
+
+Gab es Probleme bei der Pagination großer Ergebnismengen?
+
+Welche Rolle spielt DevOps bei der Backend-Optimierung?
+
+Wie hat sich das Refactoring auf Support-Tickets ausgewirkt?
+
+Englisch:
+
+How were the reporting API endpoints optimized?
+
+What performance improvements were achieved?
+
+Were there any issues with pagination of large result sets?
+
+What role does DevOps play in backend optimization?
+
+How did the refactoring affect support tickets?
+
+Projekt: Nova
+
+Deutsch:
+
+Welche Änderungen wurden an der UI-Komponentenbibliothek vorgenommen?
+
+Gab es visuelle Regressionen nach dem Update?
+
+Wie wurde die Formularvalidierung vereinheitlicht?
+
+Welche Auswirkungen hatten die UI-Updates auf den Endnutzer?
+
+Welche Tests sind für das Frontend noch geplant?
+
+Englisch:
+
+What changes were made to the UI component library?
+
+Were there visual regressions after the update?
+
+How was form validation standardized?
+
+How did the UI updates affect end users?
+
+What tests are planned next for the frontend?
+
+Projekt: Aegis
+
+Deutsch:
+
+Welche DSGVO-Maßnahmen wurden geprüft?
+
+Wie wurden Löschkonzepte für Kundendaten umgesetzt?
+
+Welche Aufbewahrungsfristen für Logs wurden definiert?
+
+Wie hat das Compliance-Team die Maßnahmen abgestimmt?
+
+Welche Herausforderungen gab es bei der Umsetzung?
+
+Englisch:
+
+Which GDPR measures were reviewed?
+
+How were customer data deletion concepts implemented?
+
+What retention periods were defined for logs?
+
+How did the compliance team coordinate the measures?
+
+What challenges occurred during implementation?
+
+Projekt: Pulse
+
+Deutsch:
+
+Welche Ursachen führten zu den Latenzspitzen?
+
+Wie wurden die Alerts im Monitoring angepasst?
+
+Welche Maßnahmen haben die Stabilität verbessert?
+
+Wie wirkt sich die Konfigurationsänderung auf den europäischen Cluster aus?
+
+Welche Rolle spielt DevOps beim Monitoring?
+
+Englisch:
+
+What caused the latency spikes?
+
+How were the alerts in monitoring adjusted?
+
+What actions improved stability?
+
+How did the configuration change affect the European cluster?
+
+What role does DevOps play in monitoring?
+
+Projekt: Zenith
+
+Deutsch:
+
+Warum wurde ein Projektmeilenstein verschoben?
+
+Wie wurde die Abstimmung mit Stakeholdern durchgeführt?
+
+Welche Ressourcenprobleme gab es im Backend-Team?
+
+Welche Maßnahmen wurden getroffen, um den neuen Zeitplan einzuhalten?
+
+Wie wirkt sich die Verschiebung auf das Gesamtprojekt aus?
+
+Englisch:
+
+Why was a project milestone postponed?
+
+How was coordination with stakeholders carried out?
+
+What resource issues occurred in the backend team?
+
+What actions were taken to meet the new timeline?
+
+How does the delay affect the overall project?
+
+Projekt: Echo
+
+Deutsch:
+
+Welche Support-Tickets traten wegen langsamer Ladezeiten auf?
+
+Wie wurden Antwortvorlagen überarbeitet?
+
+Welche Maßnahmen haben die Bearbeitungszeit reduziert?
+
+Gibt es wiederkehrende Performanceprobleme?
+
+Welche Rolle spielt Support bei internen Optimierungen?
+
+Englisch:
+
+Which support tickets occurred due to slow loading times?
+
+How were response templates revised?
+
+What actions reduced response times?
+
+Are there recurring performance issues?
+
+What role does support play in internal optimizations?
+
+Projekt: Vega
+
+Deutsch:
+
+Wie wurde die Kostenanalyse für Cloud-Storage durchgeführt?
+
+Welche nicht genutzten Volumes wurden gelöscht?
+
+Welche Einsparungen konnten realisiert werden?
+
+Wie wirkt sich die Storage-Optimierung auf andere Services aus?
+
+Welche Rolle spielt DevOps bei der Cloud-Kostenkontrolle?
+
+Englisch:
+
+How was the cost analysis for cloud storage conducted?
+
+Which unused volumes were deleted?
+
+What savings were achieved?
+
+How does storage optimization affect other services?
+
+What role does DevOps play in cloud cost management?
+
+Projekt: Stratos
+
+Deutsch:
+
+Welche Server-Hardware erreicht die Kapazitätsgrenze?
+
+Wie wurde der Plan für horizontale Skalierung erstellt?
+
+Welche Auswirkungen hat die Skalierung auf den Betrieb?
+
+Welche Rolle spielen DevOps und Infrastrukturteams?
+
+Wie wird die Performance nach Skalierung überwacht?
+
+Englisch:
+
+Which server hardware reached capacity limits?
+
+How was the plan for horizontal scaling created?
+
+What impact does scaling have on operations?
+
+What role do DevOps and infrastructure teams play?
+
+How is performance monitored after scaling?
+
+Projekt: Lumen
+
+Deutsch:
+
+Welche Machine-Learning-Modelle wurden getestet?
+
+Wie wurden Trainingsdaten bereinigt, um Overfitting zu vermeiden?
+
+Welche Ergebnisse zeigten die ersten Tests?
+
+Welche nächsten Schritte sind in der Forschung geplant?
+
+Welche Rolle spielt die Datenqualität bei den Modellen?
+
+Englisch:
+
+Which machine learning models were tested?
+
+How were training datasets cleaned to prevent overfitting?
+
+What results did the initial tests show?
+
+What are the next steps planned in the research?
+
+What role does data quality play in the models?
