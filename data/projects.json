@@ -3,13 +3,7 @@
     "projekt": "Atlas",
     "kategorie": "Softwareentwicklung",
     "datum": "2025-01-12",
-    "text": "Die Authentifizierung wurde auf OAuth2 umgestellt. Alte API-Keys sind deprecated und sollen bis Ende Q1 entfernt werden."
-  },
-  {
-    "projekt": "Atlas",
-    "kategorie": "Softwareentwicklung",
-    "datum": "2025-01-20",
-    "text": "Probleme bei der Token-Erneuerung im Frontend festgestellt. Ursache ist ein abgelaufenes Refresh-Token."
+    "text": "Die Authentifizierung wurde auf OAuth2 umgestellt. Alte API-Keys sind deprecated und sollen bis Ende Q1 entfernt werden. Probleme bei der Token-Erneuerung im Frontend festgestellt. Ursache ist ein abgelaufenes Refresh-Token. OAuth2-Flow mit Authorization Code Grant implementiert. Token-Lebensdauer und Scope-Handling wurden angepasst, Legacy-API-Key-Validierung ist weiterhin aktiv. Entscheidung getroffen, alte API-Keys bis Ende Q1 vollständig zu entfernen und Kunden frühzeitig zu informieren. Refresh-Token lief serverseitig ab, da die maximale Gültigkeitsdauer überschritten wurde. Frontend behandelt den Fehlerstatus aktuell nicht korrekt. Beschlossen, Fehlerhandling im Frontend zu erweitern und automatische Re-Authentifizierung umzusetzen. Entwicklerperspektive: OAuth2-Umstellung erforderte Anpassungen in mehreren Services und zusätzliche Tests für Token-Flows. DevOps-Perspektive: Secrets-Management und Token-Konfiguration mussten für OAuth2 zentralisiert werden. Die Migration auf OAuth2 ist abgeschlossen. Alte API-Keys wurden deaktiviert und die Dokumentation final aktualisiert."
   },
   {
     "projekt": "Neptune",
@@ -155,32 +149,6 @@
     "datum": "2025-02-07",
     "text": "Trainingsdaten müssen bereinigt werden, um Overfitting zu reduzieren."
   },
-    {
-    "projekt": "Atlas",
-    "kategorie": "Softwareentwicklung",
-    "datum": "2025-01-12",
-    "text": "OAuth2-Flow mit Authorization Code Grant implementiert. Token-Lebensdauer und Scope-Handling wurden angepasst, Legacy-API-Key-Validierung ist weiterhin aktiv."
-  },
-  {
-    "projekt": "Atlas",
-    "kategorie": "Softwareentwicklung",
-    "datum": "2025-01-12",
-    "text": "Entscheidung getroffen, alte API-Keys bis Ende Q1 vollständig zu entfernen und Kunden frühzeitig zu informieren."
-  },
-
-  {
-    "projekt": "Atlas",
-    "kategorie": "Softwareentwicklung",
-    "datum": "2025-01-20",
-    "text": "Refresh-Token lief serverseitig ab, da die maximale Gültigkeitsdauer überschritten wurde. Frontend behandelt den Fehlerstatus aktuell nicht korrekt."
-  },
-  {
-    "projekt": "Atlas",
-    "kategorie": "Softwareentwicklung",
-    "datum": "2025-01-20",
-    "text": "Beschlossen, Fehlerhandling im Frontend zu erweitern und automatische Re-Authentifizierung umzusetzen."
-  },
-
   {
     "projekt": "Neptune",
     "kategorie": "DevOps",
@@ -492,37 +460,6 @@
     "datum": "2025-02-07",
     "text": "Datenbereinigung vor weiterem Training verpflichtend."
   },
-    {
-    "projekt": "Atlas",
-    "kategorie": "Softwareentwicklung",
-    "datum": "2025-02-15",
-    "text": "Entwicklerperspektive: OAuth2-Umstellung erforderte Anpassungen in mehreren Services und zusätzliche Tests für Token-Flows."
-  },
-  {
-    "projekt": "Atlas",
-    "kategorie": "DevOps",
-    "datum": "2025-02-15",
-    "text": "DevOps-Perspektive: Secrets-Management und Token-Konfiguration mussten für OAuth2 zentralisiert werden."
-  },
-  {
-    "projekt": "Atlas",
-    "kategorie": "Projektmanagement",
-    "datum": "2025-02-15",
-    "text": "Projektmanagement-Perspektive: Migration auf OAuth2 als sicherheitskritischer Meilenstein eingeplant."
-  },
-  {
-    "projekt": "Atlas",
-    "kategorie": "Support",
-    "datum": "2025-02-15",
-    "text": "Support-Perspektive: Erhöhter Anfragebedarf durch Kunden wegen ungültiger API-Keys nach der Umstellung."
-  },
-  {
-    "projekt": "Atlas",
-    "kategorie": "IT-Sicherheit",
-    "datum": "2025-02-15",
-    "text": "Security-Perspektive: OAuth2 reduziert Risiken durch statische API-Keys deutlich."
-  },
-
   {
     "projekt": "Neptune",
     "kategorie": "Softwareentwicklung",
@@ -893,12 +830,6 @@
     "kategorie": "IT-Sicherheit",
     "datum": "2025-02-27",
     "text": "Security-Perspektive: Trainingsdaten werden auf sensible Inhalte geprüft."
-  },
-    {
-    "projekt": "Atlas",
-    "kategorie": "Softwareentwicklung",
-    "datum": "2025-03-05",
-    "text": "Die Migration auf OAuth2 ist abgeschlossen. Alte API-Keys wurden deaktiviert und die Dokumentation final aktualisiert."
   },
   {
     "projekt": "Neptune",
