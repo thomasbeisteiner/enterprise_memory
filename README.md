@@ -15,7 +15,7 @@ I knew from the beginning that fine-tuning wasn’t really the right approach fo
 
 Instead of fine-tuning, I switched to Retrieval-Augmented Generation (RAG), a method that combines a LLM with a vector-based search. First, all project data is converted into vectors (embeddings) that capture the meaning of the text — words that have similar meanings end up closer to each other in this vector space.
 
-When a question is asked, it’s also turned into a vector. The system then finds the most relevant documents by comparing these vectors — using Cosine Similarity to pick the ones that match the question most closely. These documents are used as the context for the LLM (in my case, Qwen2.5-3B), which then generates accurate, fact-based answers. The model doesn’t need to learn the information itself, so the answers stay reliable, consistent, and directly based on the project data.
+When a question is asked, it’s also turned into a vector. The system then finds the most relevant documents by comparing these vectors — using Cosine Similarity to pick the ones that match the question most closely. These documents are used as the context for the LLM (in my case, Qwen2.5-3B), which then generates accurate, fact-based answers. The model doesn’t need to learn the information itself, so the answers stay reliable, consistent, and directly based on the project data. Another advantage of RAG is that the project data does not need to be in a specific language, since I used a multilingual embedding model that works reliably for both German and English.
 
 ### 4. Key Learnings
 
